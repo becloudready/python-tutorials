@@ -9,7 +9,7 @@ threashold = 90
 def check_disk(server,mount_point):
 	s = paramiko.SSHClient()
 	s.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-	s.connect('localhost', username='chandank', password='chandan',
+	s.connect('localhost', username='chandank', password='password',
 		allow_agent=False,look_for_keys=False)
 	err,out,ins = s.exec_command("df -h")
 	ss=out.read()
