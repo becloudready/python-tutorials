@@ -115,7 +115,10 @@ print (feedback)
 import  twitter
 from twitter import Twitter
 from twitter import OAuth
-
+consumer_key = ""
+consumer_secret = "" 
+access_token = ""
+access_token_secret = ""
 oauth=  OAuth(access_token,access_token_secret,consumer_key,consumer_secret)
 api= Twitter(auth=oauth)
 
