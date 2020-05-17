@@ -23,6 +23,10 @@ rest-flask.py
 
 ## lab-07
 
-Web scrapping
+AWS Examples
+
+## lab-08
+
+DigitalOcean Examples
 
 
