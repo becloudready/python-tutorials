@@ -11,5 +11,4 @@ instances = ec2.create_instances(
      SecurityGroups=[
         'ansible-node',
     ],
-    UserData='sudo yum install httpd -y; sudo service httpd restart'
- )
+)
